@@ -16,8 +16,18 @@ import java.net.URL;
 public class MainActivity extends AppCompatActivity {
 
      WebView webView;
+
      ArrayList<String> artInterest = new ArrayList<String>();
      ArrayList<String> techInterest = new ArrayList<String>();
+     ArrayList<String> allInterest = new ArrayList<String>();
+
+     artInterest.add("https://www.thejealouscurator.com/blog/art-for-your-ear-podcast/");
+     artInterest.add("https://www.artsy.net/");
+     artInterest.add("https://www.artnews.com/art-in-america/aia-reviews/allure-of-matter-material-art-from-china-smart-museum-wrightwood-659-wu-hung-1202683842/");
+
+     techInterest.add("https://www.pcmag.com/news/report-apples-over-ear-airpods-feature-modular-magnetic-parts?taid=5e9f50f05a107f0001b4cd3f");
+     techInterest.add("https://www.techrepublic.com/article/more-windows-10-run-commands-you-should-know-but-probably-forgot/?ftag=COS-05-10aaa0g&taid=5e9f56ccf87ad2000116245c&utm_campaign=trueAnthem:+Twitter+Card&utm_medium=trueAnthemCard&utm_source=twitterCard");
+     techInterest.add("https://www.fastcompany.com/90491201/yale-students-3d-print-a-cheap-device-for-relieving-the-ventilator-shortage?partner=rss");
 
 
     @Override
@@ -49,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void interestChoice(View view){
+
 
     }
 
